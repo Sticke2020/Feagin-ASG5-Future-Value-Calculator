@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    background: white;
+    border: 2px solid navy;
+}
+h1 {
+    margin-top: 0;
+    color: navy;
+}
+label {
+    width: 12em;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    text-align: right;
+}
+#data input, #data select {
+    float: left;
+    width: 10em;
+    margin-bottom: .5em;
+}
+#buttons input {
+    float: left;
+    margin-bottom: .5em;
+}
+br {
+    clear: left;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+#check input {
+    margin-right: .5em;
+    margin-left: 0;
+    margin-bottom: .75em;
+}
+#message {
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+}
